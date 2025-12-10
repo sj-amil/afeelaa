@@ -17,8 +17,6 @@ export default function AboutPage() {
     { label: t('nav.about'), href: '/about' },
     { label: t('nav.projects'), href: '/projects' },
     { label: t('nav.shop'), href: '/#shop' },
-    { label: t('nav.blog'), href: '#blog' },
-    { label: t('nav.videoblog'), href: '#videoblog' },
     { label: t('nav.invest'), href: '/invest', isButton: true, buttonStyle: 'primary' as const },
     { label: t('nav.contact'), href: '/contact' },
   ];
